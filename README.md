@@ -40,3 +40,8 @@ Une version de publication nécessite une signature : créez un keystore, puis a
 - L'application utilise Internet pour charger les polices Google Fonts. Sans connexion, les polices système sont utilisées.
 - Les fichiers téléchargés (CSS, ZIP, JSON, etc.) sont enregistrés dans le dossier Téléchargements.
 - Pour mettre à jour l'application, remplacez `app/src/main/assets/index.html` et incrémentez `versionCode` dans `app/build.gradle`.
+
+## Logo et icône
+
+- Icône de l'application : fond bleu `#2E3192` (`values/colors.xml`) et emblème blanc (`mipmap-*/ic_launcher_foreground.png`), extrait du logo Design System Library.
+- Icône pour la fiche Play Store : `store/playstore-icon-512.png` (512 × 512 px).
